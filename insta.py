@@ -1,6 +1,5 @@
 import telebot
 import app
-from flask import Flask, jsonify, request
 
 BOT_TOKEN = "1836057993:AAF4cP9qNx3gFh-epkgjBRYkALyzVs6W0gw"
 
@@ -19,9 +18,3 @@ def echo_all(message):
     app.instaup()
 
 bot.infinity_polling()
-app = Flask(__name__)
-@app.route('/')
-    def index():
-        return 'Web App with Python Flask!'
-    
-   app.run(host='0.0.0.0', port=81)
