@@ -2,3 +2,4 @@ instagrapi
 pytube
 telebot
 imageio
+moviepy
